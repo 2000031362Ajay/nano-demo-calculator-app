@@ -1,4 +1,3 @@
-@@ -1,7 +1,10 @@
 package com.nano
 
 import io.micronaut.http.HttpResponse
@@ -9,7 +8,7 @@ import io.micronaut.http.annotation.Get
 import io.micronaut.http.annotation.Post
 import io.micronaut.validation.Validated
 import javax.validation.constraints.NotNull
-@ -9,13 +12,19 @@ import javax.validation.constraints.NotNull
+import javax.validation.constraints.NotNull
 @Controller("/calculator")
 @Validated
 class MathController {
